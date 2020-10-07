@@ -7,46 +7,83 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-    vertical-align: baseline;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
 }
-
 body {
-    font-family: 'Roboto Mono', monospace;
+   font-family: 'Roboto Mono', monospace;
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
 }
-
-button, .about {
-    color: white;
+ 
+section {
+   margin: 20px;
 }
-
-.plan {
-    background-color: #FF764E;
+.intro {
+   width: 80%;
+   display: flex;
+   justify-content: space-evenly;
 }
-
-.learn {
-    background-color: #5ED3EB;
-}
-
-.get-involved {
-    background-color: #FFCD69;
-}
-
-h1 {
-    font-family: 'Chelsea Market', cursive;
-}
-
+ 
 .about {
-    background-color: #DDB9A3;
+   background-color: #DDB9A3;
+   padding: 20px;
+   margin: 30px;
 }
-
+ 
+main div.mountain img {
+   width: 40%;
+   border-radius: 10rem;
+}
+main div.fire img {
+   width: 10%;
+}
+ 
+.fire p, .camper p {
+   width: 60%;
+   margin: 0 auto;
+   padding: 30px;
+}
+ 
+main div.camper img {
+   width: 10%;
+}
+ 
+footer img {
+   width: 100%
+}
+ 
+button{
+   padding: 6px;
+   border-radius: 5px;
+   color: white;
+   border: transparent;
+   margin: 15px;
+   font-family: 'Roboto Mono', monospace;
+   width: 130px;
+}
+button.plan {
+   background-color: #FF764E;
+}
+button.learn {
+   background-color: #5ED3EB;
+}
+button.get-involved {
+   background-color: #FFCD69;
+}
+h1 {
+   font-family: 'Chelsea Market', cursive;
+   font-size: 3rem;
+}
 footer {
-    background-color: #F9E7DC;
+   background-color: #F9E7DC;
 }
